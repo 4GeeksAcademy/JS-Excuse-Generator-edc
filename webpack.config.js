@@ -73,9 +73,9 @@ module.exports = {
     new HtmlWebpackPlugin({
         filename: "index.html",
         template: "src/index.html"
-    }),
-    new PrettierPlugin({
-        failSilently: true
-    }),
+    })
+    // new PrettierPlugin({
+    //     failSilently: true
+    // }),
   ]
 };
